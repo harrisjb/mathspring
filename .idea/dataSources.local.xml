@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Data Source" uuid="10765447-be55-49aa-960c-8d195063fbaf">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <user-name>WayangServer</user-name>
-    </data-source>
-    <data-source name="MySQL - wayangoutpostdb@rose.cs.umass.edu" uuid="0204f55f-89e2-4dde-860f-b10697b768e2">
-      <database-info product="MySQL" version="5.1.73" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.30 ( Revision: alexander.soklakov@oracle.com-20140310090514-8xt1yoht5ksg2e7c )">
+    <data-source name="mathspring-local" uuid="dd4bcfc0-0518-4b98-82de-c5f4765e989c">
+      <database-info product="MySQL" version="5.7.13" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.13">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <introspection-schemas>*:wayangoutpostdb</introspection-schemas>
-    </data-source>
-    <data-source name="wayangoutpostdb@localhost" uuid="79cdb3b3-bfa7-45ee-aa68-4b246c1e7051">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
-      <introspection-schemas>*:wayangoutpostdb</introspection-schemas>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>WayangServer</user-name>
+      <introspection-schemas>*:</introspection-schemas>
     </data-source>
   </component>
 </project>

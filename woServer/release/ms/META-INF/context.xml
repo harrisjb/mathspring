@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context path="/mt" docBase="mt"
+         crossContext="true" reloadable="true">
+
+    <Resource name="jdbc/wodblocal" auth="Container"
+              type="javax.sql.DataSource" driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/wayangoutpostdb" validationQuery="SELECT 1"
+              username="WayangServer" password="jupiter" maxActive="20" maxIdle="10"/>
+</Context>

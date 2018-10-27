@@ -11,20 +11,21 @@
     <description>MathSpring web application</description>
     <resource-ref>
         <description>DB Connection</description>
-        <res-ref-name>jdbc/wodbrose</res-ref-name>
+        <res-ref-name>jdbc/wodblocal</res-ref-name>
         <res-type>javax.sql.DataSource</res-type>
         <res-auth>Container</res-auth>
     </resource-ref>
     <display-name>mathspring</display-name>
-    <context-param>
-        <param-name>error.smtpserver</param-name>
-        <param-value>loki.cs.umass.edu</param-value>
-    </context-param>
+    <!--<context-param>-->
+        <!--<param-name>error.smtpserver</param-name>-->
+        <!--<param-value>loki.cs.umass.edu</param-value>-->
+    <!--</context-param>-->
 
     <context-param>
         <param-name>host</param-name>
         <!--<param-value>rose.cs.umass.edu</param-value>-->
-        <param-value>sugaree.cs.umass.edu</param-value>
+        <param-value>localhost</param-value>
+        <!--<param-value>sugaree.cs.umass.edu</param-value>-->
         <!--<param-value>cadmium.cs.umass.edu</param-value>-->
     </context-param>
     <!--
@@ -39,7 +40,7 @@
     because it will use the mysql running on cadmium -->
     <context-param>
         <param-name>wodb.datasource</param-name>
-        <param-value>jdbc/wodbrose</param-value>
+        <param-value>jdbc/wodblocal</param-value>
     </context-param>
     <context-param>
         <param-name>pedagogiesFile</param-name>
